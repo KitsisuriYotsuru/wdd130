@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.para {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+nav {
+    background-color: #cccccc;
+}
+
+a {
+    background-color: steelblue;
+    font-size: 1.5em;
+    color:white;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+#active {
+    background-color: #aaaaaa;
+    color: steelblue;
+}
