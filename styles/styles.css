@@ -1,24 +1,30 @@
 body {
+    text-align: center;
     margin: 0;
     padding: 0;
+}
+
+nav {
+    background-color: steelblue;
+    
 }
 
 .para {
     font-size: 1.5em;
     line-height: 1.5em;
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
 }
 
-nav {
-    background-color: #cccccc;
-}
-
-a {
+nav a {
     background-color: steelblue;
     font-size: 1.5em;
     color:white;
     padding: 10px;
     display: inline-block;
     text-decoration: none;
+    margin: 0 20px;
 }
 
 a:hover {
@@ -27,6 +33,14 @@ a:hover {
 }
 
 #active {
-    background-color: #aaaaaa;
+    background-color: white;
     color: steelblue;
 }
+
+img {
+    width: 85%;
+    border: 4px solid steelblue;
+    margin: 0 auto;
+    display: block
+}
+
