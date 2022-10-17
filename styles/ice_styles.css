@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    background-color: #888;
+}
+
+#banner {
+    width: 100%;
+}
+
+div {
+    text-align: center;
+}
+
+.main_images {
+    width: 20%;
+    border-radius: 100%;
+    border: 10px solid #555;
+    margin: 20px 4%;
+}
