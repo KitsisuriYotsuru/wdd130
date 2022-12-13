@@ -28,10 +28,6 @@ body{
     color: var(--secondary-color);
 }
 
-#hero {
-    
-}
-
 nav {
     display: flex;
     justify-content: space-around;
@@ -95,17 +91,24 @@ h1 {
     grid-row: 2/3;
 }
 
-#img1 {
-    
-}
-
 #img2 {
     padding-top: 5%;
     padding-bottom: 5%;
 }
 
-#img3 {
+#chapter_nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
+#previous_chapter {
+    grid-column: 1/2;
+    text-align: left;
+}
+
+#next_chapter {
+    grid-column: 2/3;
+    text-align: right;
 }
 
 .social { 
