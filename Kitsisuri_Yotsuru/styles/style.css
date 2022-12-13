@@ -111,6 +111,30 @@ h1 {
     text-align: right;
 }
 
+#main_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#img1 {
+    grid-column: 1/2;
+
+}
+
+#img2 {
+    grid-column: 3/4;
+    padding-left: 15%;
+}
+
+#main_p {
+    grid-column: 2/3;
+}
+
+video {
+    grid-column: 1/4;
+    padding-left: 10%;
+}
+
 .social { 
     background-color: var(--nav-background-color);
     color: var(--paragraph-color-on-color);
